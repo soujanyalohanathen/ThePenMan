@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/58034992/128229800-1e0f9ed3-e7cf-4f72-
    <br>
    <br>
 <b> 5. Planned Final Demonstration </b><br>
-   The final demonstration will be on,
+   The final demonstration will be on,<br>
       1. MakeBlock XY Plotter<br>
       <img src= "https://user-images.githubusercontent.com/58034992/128227932-94d287c1-3b14-4a62-872f-641c2f23bcd8.jpg" width="350">
       <br>
