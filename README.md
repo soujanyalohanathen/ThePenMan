@@ -21,7 +21,11 @@
    <br>
 <b> 4. Basically How a XY plotter Works? </b> <br>
     Once you feed the sketch into the XY Plotter's software It will scan out the sketch and according to the X and Y coordinates it will draw the exact image on to a paper.
-    <img src = "https://user-images.githubusercontent.com/58034992/128227136-89a648c1-736c-4969-8e60-5b2caa8cf71e.mp4"
+    
+
+https://user-images.githubusercontent.com/58034992/128229800-1e0f9ed3-e7cf-4f72-b51d-bfbc25fa789d.mp4
+
+
    <br>
    <br>
 <b> 5. Planned Final Demonstration </b><br>
@@ -29,10 +33,10 @@
       1. MakeBlock XY Plotter<br>
       <img src= "https://user-images.githubusercontent.com/58034992/128227932-94d287c1-3b14-4a62-872f-641c2f23bcd8.jpg" width="350">
       <br>
-      2. Arduino UNO
+      2. Arduino UNO <br>
       <img src= "https://user-images.githubusercontent.com/58034992/128227993-021dda2f-d6cd-4598-bfc0-c87ddfbfccac.png" width="350">
       <br>
-      3. ESP8266 Module
+      3. ESP8266 Module <br>
       <img src= "https://user-images.githubusercontent.com/58034992/128228070-4cf643de-2d89-43e5-a1d3-f611c8d91df2.jpg" width ="350">
 <br>
 <br>
