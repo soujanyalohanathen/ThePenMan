@@ -45,7 +45,7 @@ https://user-images.githubusercontent.com/58034992/128229800-1e0f9ed3-e7cf-4f72-
    Already it has been tried to insert the audio file as .wav format as in the AudioSegmentType.py file. 
    It normally have the whole audio and cut it into segments called 'Audio Chunks' and recognizes them.
    The code given above is using 'pydub' library from Python.
-   It has been noticed there were errors. And also this solution will be more applicable if the work can be done in real time.<br>![audiosegmenttype](https://user-           images.githubusercontent.com/58034992/129144509-84422496-f1d3-4e44-b928-284888b13b30.jpg) <br>
+   It has been noticed there were errors. And also this solution will be more applicable if the work can be done in real time.<br>![audiosegmenttype](https://user-     images.githubusercontent.com/58034992/129144509-84422496-f1d3-4e44-b928-284888b13b30.jpg) <br>
 
 
 <ins><b>Update : August 12 2021</b></ins><br>
