@@ -104,9 +104,7 @@ But the draw back of this is, if multiple persons speak at same time it always t
 In case of a machine tool such as lathe or mill, the cutting tool is driven by these commands to follow a specific toolpath, cutting away material in order to get the desired shape.
 Similarly, in case of additive manufacturing or 3D printers, the G-code commands instruct the machine to deposit material, layer upon layer, forming a precise geometric shape. <br>
          Sample G Code : <br>
-         ![image](https://user-images.githubusercontent.com/58034992/134470899-76f4f152-a733-46ea-92c0-5da663635e4c.png) <br>
-         
-         This is the sample Gcode File I have generated from an external software called Inkscape. 
+         ![image](https://user-images.githubusercontent.com/58034992/134474438-f0efdef6-7989-4d0d-99aa-4456e6714bd7.png) <br>This is the sample Gcode File I have generated from an external software called Inkscape.  <br>
        
 <b>What is the Flow of the project?</b><br>
          1. Speech will be transcribed using Python's PyAudio Library.<br>
