@@ -100,12 +100,9 @@ But the draw back of this is, if multiple persons speak at same time it always t
 <b>How to Send the Transcribed text to the XY Plotter ? </b> <br>
          G-Code will be a communicator between the laptop and the XY plotter.  <br>
          What is a G-Code ? <br>
-         G-code is a programming language for CNC (Computer Numerical Control) machines. G-code stands for “Geometric Code”. We use this language to tell a machine what to do or          how to do something. The G-code commands instruct the machine where to move, how fast to move and what path to follow.
-
-         In case of a machine tool such as lathe or mill, the cutting tool is driven by these commands to follow a specific toolpath, cutting away material in order to get the            desired shape.
-
-         Similarly, in case of additive manufacturing or 3D printers, the G-code commands instruct the machine to deposit material, layer upon layer, forming a precise geometric          shape. <br>
-         
+         G-code is a programming language for CNC (Computer Numerical Control) machines. G-code stands for “Geometric Code”. We use this language to tell a machine what to do or          how to do something. The G-code commands instruct the machine where to move, how fast to move and what path to follow. <br>
+In case of a machine tool such as lathe or mill, the cutting tool is driven by these commands to follow a specific toolpath, cutting away material in order to get the desired shape.
+Similarly, in case of additive manufacturing or 3D printers, the G-code commands instruct the machine to deposit material, layer upon layer, forming a precise geometric shape. <br>
          Sample G Code : <br>
          ![image](https://user-images.githubusercontent.com/58034992/134470899-76f4f152-a733-46ea-92c0-5da663635e4c.png) <br>
          
@@ -118,10 +115,6 @@ But the draw back of this is, if multiple persons speak at same time it always t
 
 <b>Simulating with Coppelia Sim</b> <br>
          CoppeliaSim has a gcode library in which we can write the code to write according to the GCode. <br>
-         ![image](https://user-images.githubusercontent.com/58034992/134472218-39699050-b178-4f6d-8bd2-16b0cbee52c0.png)<br>
-         
-         This code gave me a simulation like this. <br>
-         ![image](https://user-images.githubusercontent.com/58034992/134472425-ed2de11a-25cb-47ed-a17d-8cb9849d1e64.png) <br>
-         
-         And Now I am trying to communicate from my python script to the CoppeliaSim in order to Make this project in the Remote Simulation.
+         ![image](https://user-images.githubusercontent.com/58034992/134472218-39699050-b178-4f6d-8bd2-16b0cbee52c0.png)<br>This code gave me a simulation like this. <br>
+         ![image](https://user-images.githubusercontent.com/58034992/134472425-ed2de11a-25cb-47ed-a17d-8cb9849d1e64.png) <br> And Now I am trying to communicate from my python script to the CoppeliaSim in order to Make this project in the Remote Simulation.
 
