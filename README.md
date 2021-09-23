@@ -84,9 +84,9 @@ One can imagine that this whole process may be computationally expensive. In man
  
 In python, there are several libraries which facilitates all the above procedures in a single package.
       <li> 1. SpeechRecognition
-      <li> 2. google-cloud-speech
-In my case since I am not running a Google Cloud project, I tend to use the Speech Recognition Library from Python.
-Requirements :
+      <li> 2. google-cloud-speech <br>
+In my case since I am not running a Google Cloud project, I tend to use the Speech Recognition Library from Python. <br>
+Requirements : <br>
          PyAudio 0.2.11+ (required only if you need to use microphone input, Microphone) <br>
          PocketSphinx (required only if you need to use the Sphinx recognizer, recognizer_instance.recognize_sphinx) <br>
          Google API Client Library for Python (required only if you need to use the Google Cloud Speech API, recognizer_instance.recognize_google_cloud) <br>
@@ -97,9 +97,9 @@ In my case, I am only using my inbuilt microphone, therefore I am using puAudio 
 But the draw back of this is, if multiple persons speak at same time it always transcribes what it listen within that frame. Sometime this will lead to an inaccurate transcription or can end up with no results. <br>
          
          
-<b>How to Send the Transcribed text to the XY Plotter ? </b>
-         G-Code will be a communicator between the laptop and the XY plotter. 
-         What is a G-Code ?
+<b>How to Send the Transcribed text to the XY Plotter ? </b> <br>
+         G-Code will be a communicator between the laptop and the XY plotter.  <br>
+         What is a G-Code ? <br>
          G-code is a programming language for CNC (Computer Numerical Control) machines. G-code stands for “Geometric Code”. We use this language to tell a machine what to do or          how to do something. The G-code commands instruct the machine where to move, how fast to move and what path to follow.
 
          In case of a machine tool such as lathe or mill, the cutting tool is driven by these commands to follow a specific toolpath, cutting away material in order to get the            desired shape.
@@ -107,16 +107,16 @@ But the draw back of this is, if multiple persons speak at same time it always t
          Similarly, in case of additive manufacturing or 3D printers, the G-code commands instruct the machine to deposit material, layer upon layer, forming a precise geometric          shape. <br>
          
          Sample G Code : <br>
-         ![image](https://user-images.githubusercontent.com/58034992/134470899-76f4f152-a733-46ea-92c0-5da663635e4c.png) <bR>
+         ![image](https://user-images.githubusercontent.com/58034992/134470899-76f4f152-a733-46ea-92c0-5da663635e4c.png) <br>
          
-         This is the sample Gcode File I have generated from an external software called Inkscape.
+         This is the sample Gcode File I have generated from an external software called Inkscape. 
        
-<b>What is the Flow of the project?</b>
-         1. Speech will be transcribed using Python's PyAudio Library.
-         2. Transcribed text will be converted to G-Code (Not Finished yet)
-         3. G- Code will be sent by G-code sender in Python via USB cable to the XY Plotter.
+<b>What is the Flow of the project?</b><br>
+         1. Speech will be transcribed using Python's PyAudio Library.<br>
+         2. Transcribed text will be converted to G-Code (Not Finished yet)<br>
+         3. G- Code will be sent by G-code sender in Python via USB cable to the XY Plotter.<br>
 
-<b>Simulating with Coppelia Sim</b>
+<b>Simulating with Coppelia Sim</b> <br>
          CoppeliaSim has a gcode library in which we can write the code to write according to the GCode. <br>
          ![image](https://user-images.githubusercontent.com/58034992/134472218-39699050-b178-4f6d-8bd2-16b0cbee52c0.png)<br>
          
