@@ -104,7 +104,7 @@ But the draw back of this is, if multiple persons speak at same time it always t
 In case of a machine tool such as lathe or mill, the cutting tool is driven by these commands to follow a specific toolpath, cutting away material in order to get the desired shape.
 Similarly, in case of additive manufacturing or 3D printers, the G-code commands instruct the machine to deposit material, layer upon layer, forming a precise geometric shape. <br>
          Sample G Code : <br>
-         ![image](https://user-images.githubusercontent.com/58034992/134474438-f0efdef6-7989-4d0d-99aa-4456e6714bd7.png) <br>This is the sample Gcode File I have generated from an external software called Inkscape.  <br>
+         ![image](https://user-images.githubusercontent.com/58034992/134474584-afde7aa0-c76a-4977-aa91-e26d83bc2c93.png) <br>This is the sample Gcode File I have generated from an external software called Inkscape.  <br>
        
 <b>What is the Flow of the project?</b><br>
          1. Speech will be transcribed using Python's PyAudio Library.<br>
@@ -113,6 +113,6 @@ Similarly, in case of additive manufacturing or 3D printers, the G-code commands
 
 <b>Simulating with Coppelia Sim</b> <br>
          CoppeliaSim has a gcode library in which we can write the code to write according to the GCode. <br>
-         ![image](https://user-images.githubusercontent.com/58034992/134472218-39699050-b178-4f6d-8bd2-16b0cbee52c0.png)<br>This code gave me a simulation like this. <br>
+         ![image](https://user-images.githubusercontent.com/58034992/134474547-7f904bec-250e-42c4-889c-9310320cd163.png)<br>This code gave me a simulation like this. <br>
          ![image](https://user-images.githubusercontent.com/58034992/134472425-ed2de11a-25cb-47ed-a17d-8cb9849d1e64.png) <br> And Now I am trying to communicate from my python script to the CoppeliaSim in order to Make this project in the Remote Simulation.
 
